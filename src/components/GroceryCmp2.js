@@ -10,7 +10,7 @@ const GroceryCmp2 = (props) => {
     return (
         <ul>
         {
-            {groceryListx}.map( (item, index) => 
+            groceryListx.map( (item, index) => 
                 <li key={ index }> { item }</li>
             )
         }

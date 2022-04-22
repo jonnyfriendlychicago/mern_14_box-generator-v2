@@ -13,7 +13,7 @@ const AmigoCmp = (props) => {
     
     return (
     <>
-    <Card style={ { width: '350px' , margin: '5px'} } >
+    <Card style={ { width: '250px' , margin: '5px'} } >
         {/* <Card.Img variant="top" src="/logo192.png" /> */}
         <Card.Body>
             <Card.Title >{lastName}, {firstName}</Card.Title>

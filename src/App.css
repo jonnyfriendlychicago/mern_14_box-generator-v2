@@ -173,18 +173,26 @@ main {
 .registerLoginContainer {
   height: 750px; 
 }
+
 .row_left {
   width: 100%;
   padding-left: 50px; 
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
 .row_flex_left {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
+.row_flex_left_top {
+  display: flex;
+  justify-content: flex-start;
+  align-items:flex-start;
+  flex-wrap: wrap;
+}
 .row_flex_right {
   display: flex;
   justify-content: flex-end;
